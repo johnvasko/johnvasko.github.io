@@ -1,24 +1,16 @@
 style.css
 body {
-	text-align: center;
-	background: url('images/strum2000.jpg');
-	width: 100%;
 	color: #112444;
+	background: url('images/strum.jpg');
+	background-size: cover;
+	text-align: center;
+	font-size: 16px;
 	font-family: Arial;
 }
-h1 {font-size: 30px;
-	font-weight: 700;
-}
-h2 {font-size: 20px;
-	font-weight: 500;
-}
-h3 {font-size: 16px;
-	font-weight: 500;
-}
+
 hr {
   width: 200px;
 }
-p {font-size: 14px;
-}
+
 a {text-decoration: none;
 }
