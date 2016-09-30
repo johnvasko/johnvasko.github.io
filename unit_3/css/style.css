@@ -3,7 +3,7 @@ body {
 	text-align: center;
 	background: url('images/strum2000.jpg');
 	background-size: cover;
-	color: #A3C5FF;
+	color: ##112444;
 	font-family: Arial;
 }
 h1 {font-size: 30px;
@@ -20,6 +20,5 @@ hr {
 }
 p {font-size: 14px;
 }
-
 a {text-decoration: none;
 }
