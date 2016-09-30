@@ -2,7 +2,7 @@ style.css
 body {
 	text-align: center;
 	background: url('images/strum2000.jpg');
-	background-size: cover;
+	width: 100%;
 	color: #112444;
 	font-family: Arial;
 }
