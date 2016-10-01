@@ -20,6 +20,10 @@ nav {
     margin: 0;
     padding: 10px;
 }
+#navtop li {
+    display: inline;
+    padding-left: 20px;
+}
 hr {
 	margin:1em auto;
 	width: 180px;
