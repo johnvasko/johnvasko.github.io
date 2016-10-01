@@ -5,9 +5,28 @@ body {
 	font-size: 16px;
 	font-family: Helvetica;
 }
+
+nav {
+    background-color: #112444;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    display: inline;
+}
+#navtop {
+    font-family: Helvetica;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
 hr {
 	margin:1em auto;
 	width: 180px;
+}
+}
+h2 {padding-top: .5em
+
 }
 
 a {
