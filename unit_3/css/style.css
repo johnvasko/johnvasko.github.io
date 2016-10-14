@@ -20,7 +20,7 @@ section {
 	padding:4em 0;
 }
 figure {
-	background-color:#EDEDED;
+	background-color: #EDEDED;
 	width: 25%;
 	float: left;
 	padding:1em
@@ -64,5 +64,6 @@ a {
 	width:75em;
 }
 footer {
+	padding-top: 1em;
 	clear:both;
 }
