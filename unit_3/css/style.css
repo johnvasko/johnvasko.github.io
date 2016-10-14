@@ -20,6 +20,7 @@ section {
 	padding:4em 0;
 }
 figure {
+	background-color:#EDEDED;
 	width: 25%;
 	float: left;
 	padding:1em
@@ -37,7 +38,7 @@ hr {
 }
 h2 {
 	font-size:1.5em;
-	padding-top: .5em;
+	padding-top: .8em;
 }
 
 a {
