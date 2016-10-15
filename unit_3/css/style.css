@@ -67,7 +67,7 @@ footer {
 	padding: 4em 0;
 	color: #fff;
 	background: #112444;
-	/* clear:both; */
+	clear:both;
 }
 .clearfix:after {
 	display:block;
@@ -87,7 +87,7 @@ section#featured {
 }
 
 #about div {
-    width: 75em;
+    width: 75%;
     float: left;
     padding-left: 2em;
 }
