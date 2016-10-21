@@ -10,13 +10,29 @@ nav {
     background-color: #112444;
     text-align: left;
 }
-nav a {
+
+/*LoVe HAte*/
+
+nav a:link{
 	display:inline-block;
 	color:#fff;
 	padding:1em;
 	margin:0 1em;
 	text-decoration:none;
 }
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:Hover{
+	color:pink;
+}
+
+nav a:active{
+	color:#fff;
+}
+
 section {
 	padding:4em 0;
 }
