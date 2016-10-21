@@ -13,26 +13,16 @@ nav {
 
 /*LoVe HAte*/
 
-nav a:link{
+nav a, nav a:visited, nav a:active{
 	display:inline-block;
 	color:#fff;
 	padding:1em;
 	margin:0 1em;
 	text-decoration:none;
 }
-
-nav a:visited{
-	color: #fff;
+nav a:hover{
+	background:pink;
 }
-
-nav a:Hover{
-	color:pink;
-}
-
-nav a:active{
-	color:#fff;
-}
-
 section {
 	padding:4em 0;
 }
@@ -75,7 +65,7 @@ a {
     width: 30em;
     margin: auto;
 }
-#featured div {
+.wrapper {
 	margin:auto;
 	width:75em;
 }
@@ -118,13 +108,15 @@ section#featured {
     border: 1px black solid;
     padding: 4px;
     float: left;
-    width: 46%;
+    width: 49%;
+    margin: 0.5%;
 }
 
 #right {
     background-color: pink;
     border: 1px black solid;
     padding: 4px;
-    float: right;   
-    width: 46%;
+    float: left;
+    width: 49%;
+    margin: .5%;
 }
