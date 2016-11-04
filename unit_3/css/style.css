@@ -67,7 +67,7 @@ a {
 }
 .wrapper {
 	margin:auto;
-	width:75em;
+	max-width: 80em;
 }
 footer {
 	padding: 4em 0;
@@ -99,8 +99,32 @@ section#featured {
 }
 
 #about {
-    width: 600px;
+    max-width: 40em;
     margin: auto;
     text-align: left;
 }
 
+@media only screen and (max-width:645px) {
+	figure {
+		padding:.5em;
+		width:100%;
+	}
+	#about {
+		padding: 4em 2em;
+	}
+	#about div {
+		width:100%;
+		padding: 0;
+	}
+	#about img {
+		display:block;
+		margin:auto;
+		width:75%;
+		float: initial;
+	}
+	#splash {
+		background:#112444;
+		padding:5em 0;
+		height:initial;
+	}
+}
